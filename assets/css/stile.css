@@ -1,9 +1,159 @@
 /* IMPOSTAZIONI GENERALI */
+* {
+    max-width:500px;
+    margin-left:5px;
+    margin-right:5px;
+    text-align:center;
+}
+
 
 /* HEADER */
+header {
+    background-color: rgb(91, 193, 227);
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    /* font-size:20px; */
+    line-height:40px;
+    border-bottom: 8px solid blue; 
+    padding:10px 10px 10px;
+}
+
+#infoh2{
+    font-weight:bold;
+}
+
+header > h2 {
+    font-size:15px;
+}
+
+
+
+.h1text {
+    color:white;
+    font-size:20px;
+}
+
+.text-span {
+    color:rgb(91,193,227);
+    background-color: white;
+    font-size:20px;
+}
 
 /* MAIN */
+main {
+    line-height:40px;
+    font-family: 'Raleway', sans-serif;
+}
 
 /* ELEMENTI NEL MAIN */
+#infoh2{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    color:rgb(91, 193, 227);
+}
+
+.imgclass{
+    border:3px solid lightgrey;
+}
+
+
+address > b {
+    font-weight:bold;
+}
+
+address > a {
+    color:rgb(190, 126, 7);
+}
+
+.text-info{
+    font-weight:bold;
+}
+
+.front-svil {
+    color:rgb(5,144,144);
+}
+
+.project {
+    color:rgba(5,144,144);
+}
+
+blockquote {
+    background-color: rgb(172, 159, 159);
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+.prex{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color:rgb(91, 193, 227);
+    font-weight:bold;
+    font-size:20px;
+
+}
+
+.para-2{
+    font-family: 'Raleway', sans-serif; 
+    text-align: justify;
+    margin-left:5px;
+    margin-right:5px; 
+}
+
+div > h3 {
+    text-transform: uppercase;
+    color:blueviolet;
+    background-color: lightgreen;
+    border-radius:40px;
+    margin:10px 10px 10px 10px;
+    font-weight:bold;
+}
+
+div > h3:hover{
+    background-color: white;
+}
+
+dl > dt {
+    text-transform: uppercase;
+    color:rgb(184, 17, 17);
+}
+
+.templ {
+    color:rgb(5, 144, 144);
+}
+
+.text-epicode {
+    color:red;
+}
 
 /* FOOTER */
+footer {
+    background-color: rgb(41, 39, 39);
+    margin-bottom:0;
+    margin-top:10px;
+    color:white;
+    border-top:5px solid rgb(91,193,227);
+}
+
+kbd {
+    color:yellow;
+    font-style:italic;
+    font-weight:bold;
+}
+
+.cv-text {
+    color:rgb(196, 65, 0);
+}
+
+small {
+    color:grey;
+}
+
+hr {
+    border-top:1px dashed grey;
+}

@@ -8,22 +8,38 @@
       content="Il mio curriculum: profilo, competenze ed esperienze maturate ad oggi in ambito professionale."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/stile.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mouse+Memoirs&family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Mouse+Memoirs&family=Raleway:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
     <!-- INSERIRE I LINK AL FONT RALEWAY, AL CSS RESET E AL CSS GENERALE -->
   </head>
   <body>
     <header>
-      <h1>Curriculum vitae <span>Mario Rossi</span></h1>
+      <h1 class="h1text">
+        Curriculum vitae <br /><span class="text-span">Mario Rossi</span>
+      </h1>
       <h2>Web developer &amp; Consulente SEO</h2>
     </header>
-
-    <hr />
 
     <main>
       <section>
         <div>
-          <h2>Info personali</h2>
+          <h2 id="infoh2">Info personali</h2>
           <figure>
             <img
+              class="imgclass"
               src="assets/img/profilo.jpg"
               alt="Foto profilo"
               width="240"
@@ -33,7 +49,8 @@
           </figure>
           <address>
             <img src="assets/img/calendar.svg" alt="" width="20" height="20" />
-            <b>Data di nascita:</b> 22-10-1993<br />
+            <b><span class="text-bold">Data di nascita:</span></b>
+            22-10-1993<br />
             <img
               src="assets/img/smartphone.svg"
               alt=""
@@ -50,7 +67,7 @@
               >06-10203040</a
             >
           </address>
-          <p><b>Su di me:</b></p>
+          <p><span class="text-info">Su di me:</span></p>
           <blockquote>
             <p>
               "Sembra sempre impossibile, finché non viene fatto."
@@ -60,16 +77,18 @@
         </div>
 
         <div>
-          <h2>Presentazione</h2>
-          <p>
-            Lavoro come <strong>sviluppatore Front End</strong> in qualità di
+          <h2 class="prex">Presentazione</h2>
+          <p class="para-2">
+            Lavoro come
+            <span class="front-svil">sviluppatore Front End</span> in qualità di
             libero professionista secondo il motto
             <q
               >"Fai della tua passione un lavoro e non lavorerai nemmeno per 1
               giorno"</q
             >. Collaboro con aziende pubbliche e private su
-            <strong>progetti in fase di startup</strong>, sia come sviluppatore
-            che come <em>consulente SEO</em> per partire con il piede giusto.
+            <span class="project">progetti in fase di startup</span>, sia come
+            sviluppatore che come <em>consulente SEO</em> per partire con il
+            piede giusto.
           </p>
         </div>
       </section>
@@ -77,7 +96,7 @@
       <hr />
       <section>
         <div>
-          <h2>Formazione</h2>
+          <h2 class="prex">Formazione</h2>
           <h3>Diploma scientifico</h3>
           <p>
             Conseguito nel 2010 con <mark>votazione 100/100</mark> presso
@@ -87,6 +106,7 @@
           <p>
             Conseguito nel 2016 presso
             <a
+              class="text-epicode"
               href="https://www.epicode.school"
               target="_blank"
               title="Il sito della scuola dove mi sono certificato"
@@ -98,8 +118,10 @@
         </div>
       </section>
 
+      <hr>
+
       <section>
-        <h2>Competenze</h2>
+        <h2 class="prex">Competenze</h2>
 
         <div>
           <h3>Conoscenze tecniche</h3>
@@ -118,7 +140,8 @@
           <dl>
             <dt>Sviluppo web</dt>
             <dd>
-              Dal PSD all'HTML, sviluppo di <strong>template per CMS</strong>
+              Dal PSD all'HTML, sviluppo di
+              <span class="templ">template per CMS</span>
             </dd>
             <dt>Ottimizzazione CSS</dt>
             <dd>
@@ -141,19 +164,21 @@
       <p>
         Per stampare questa pagina premere i tasti <kbd>Ctrl + P</kbd
         ><br />oppure<br /><a
+          class="cv-text"
           href="assets/doc/curriculum.pdf"
           target="_blank"
           title="Il mio Curriculum in formato PDF - 20Kb"
           >Scarica il mio C.V.</a
         >
       </p>
+      <br />
       <p>
         <small
           >Autorizzo il trattamento dei dati personali secondo il decreto
           vigente</small
         >
       </p>
-      <hr />
+      <br />
       <p>Copyright &copy;2021 - Tutti i diritti riservati</p>
     </footer>
   </body>
